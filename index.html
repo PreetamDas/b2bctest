@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>Maintainance Page</title>
+<meta charset="utf-8"/>
+<meta name="robots" content="noindex"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { text-align: center; padding: 150px; background: black;}
+  h1 { font-size: 50px; color:white; }
+  body { font: 20px Helvetica, sans-serif; color: white; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+</style>
+<script>
+
+  window.watsonAssistantChatOptions = {
+
+    integrationID: "43edf266-07de-4f44-8840-2d0cb49fdd1c", // The ID of this integration.
+
+    region: "us-south", // The region your integration is hosted in.
+
+    serviceInstanceID: "a6a4550d-f380-48a3-a3ff-814989548032", // The ID of your service instance.
+
+    onLoad: function(instance) { instance.render(); }
+
+  };
+
+  setTimeout(function(){
+
+    const t=document.createElement('script');
+
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+
+    document.head.appendChild(t);
+
+  });
+
+</script>
+</head>
+<body>
+<article>
+    <h1>IBM B2B Commerce for Procurement</h1>
+    <div>
+        <p>B2BC Welcome Page to AIISA</p>
+        <p>Thank you for Testing</p>
+        <p>Team</p>
+    </div>
+</article>
+</body>
+</html>
